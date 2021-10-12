@@ -6,6 +6,7 @@ import Headliners from './components/headliners/Headliners'
 import LogoSite from './components/logo-site/LogoSite';
 import NavMenu from './components/nav-menu/NavMenu';
 import News from './components/news/News';
+import Subscribe from './components/subscribe/Subscribe';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <aside className="sidebar">
         <LogoSite />
         <NavMenu />
+        <Subscribe title="Subscribe to our new plan $25" />
       </aside>
       <main className="main">
         <Channels />

@@ -1,0 +1,79 @@
+.subscribe{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    max-width: 24px;
+    height: 100%;
+    max-height: 32px;
+}
+
+.imageWrapper{
+    background-color: rgba(251, 109, 58, 0.1);
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin-bottom: 24px;
+}
+
+.text{
+    color: #626264;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    max-width: 176px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+.text span{
+    text-decoration: underline;
+}
+
+.wrapper{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 32px 96px -8px rgba(0, 0, 0, 0.06);
+    width: 240px;
+    height: 324px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonSubscribe{
+    background-color: #503E9D;
+    min-width: 176px;
+    min-height: 48px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    padding: 16px 17px;
+    text-align: left;
+    position: relative;
+    cursor: pointer;
+}
+
+.buttonSubscribe::after{
+    content: "";
+    background-image: url('./../../assets/img/button-arrow.svg');
+    background-size: 16px 13px;
+    width: 16px;
+    height: 13px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(-50%);
+}

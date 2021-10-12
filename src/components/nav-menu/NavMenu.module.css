@@ -19,6 +19,7 @@
     color: #878787;
     border-radius: 12px;
     cursor: pointer;
+    transition: 0.3s all;
 }
 .listItem:last-child{
     margin-top: 104px;
