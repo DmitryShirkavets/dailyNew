@@ -17,11 +17,17 @@
 .sidebar{
     grid-area: s;
     background-color: #F8F8F8;
+    border-radius: 0px 24px 24px 0px;
+    padding: 33px 16px;
 }
 
 .main{
     grid-area: c;
     padding: 32px;
+}
+
+.main section{
+    margin-bottom: 38px;
 }
 
 .block-content{
