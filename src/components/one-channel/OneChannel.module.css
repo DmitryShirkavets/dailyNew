@@ -1,0 +1,16 @@
+.oneChannel{
+    background-color: #F7F7F7;
+    box-shadow: 0px 6px 30px rgba(65, 84, 152, 0.08);
+    border-radius: 12px;
+    width: 152px;
+    height: 158px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 36px 12px 16px;
+    box-sizing: border-box;
+}
+.logo{
+    
+}
