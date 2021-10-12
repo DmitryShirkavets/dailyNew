@@ -12,9 +12,9 @@ function News() {
         <section className={s.news}>
           <SectionTitle title="Featured News" />
           <div className="block-content">
-            <OneNews title="Travellers to pay more than $2K, Trudeau says" thumbnail={thumbnail1} />
-            <OneNews title="Myanmar’s military seizes control of country ov  er..." thumbnail={thumbnail2} />
-            <OneNews title="Pressure builds for Biden to cancel other pipeline..." thumbnail={thumbnail3} />
+            <OneNews title="Travellers to pay more than $2K, Trudeau says" thumbnail={thumbnail1} label="FOX NEWS" time="2:00 pm" />
+            <OneNews title="Myanmar’s military seizes control of country ov  er..." thumbnail={thumbnail2} label="CNN NEWS" time="2:00 pm" />
+            <OneNews title="Pressure builds for Biden to cancel other pipeline..." thumbnail={thumbnail3} label="BBC NEWS" time="2:00 pm" />
           </div>
         </section>
     );

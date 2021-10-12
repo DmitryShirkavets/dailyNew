@@ -4,6 +4,7 @@
     line-height: 150%;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 }
 .time {
     color: #878787;
