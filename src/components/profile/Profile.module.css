@@ -1,0 +1,19 @@
+.profile{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.profileButton{
+    width: 48px;
+    height: 48px;
+    background-color: #503E9D;
+    background-image: url('./../../assets/img/filter.svg');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}

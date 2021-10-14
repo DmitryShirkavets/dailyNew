@@ -3,12 +3,12 @@ import s from './Headliners.module.css';
 import SectionTitle from './../section-title/SectionTitle';
 import Headliner from './../headliner/Headliner';
 
-import thumbnail1 from './../../assets/img/image 1.svg';
-import thumbnail2 from './../../assets/img/image 2.svg';
-import thumbnail3 from './../../assets/img/image 3.svg';
-import thumbnail4 from './../../assets/img/image 4.svg';
-import thumbnail5 from './../../assets/img/image 5.svg';
-import thumbnail6 from './../../assets/img/image 6.svg';
+import thumbnail1 from './../../assets/img/headliner1.png';
+import thumbnail2 from './../../assets/img/headliner2.png';
+import thumbnail3 from './../../assets/img/headliner3.png';
+import thumbnail4 from './../../assets/img/headliner4.png';
+import thumbnail5 from './../../assets/img/headliner5.png';
+import thumbnail6 from './../../assets/img/headliner6.png';
 
 function Headliners() {
     return (

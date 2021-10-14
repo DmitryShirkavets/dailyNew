@@ -3,12 +3,12 @@ import s from './Channels.module.css';
 import SectionTitle from '../section-title/SectionTitle';
 import OneChannel from '../one-channel/OneChannel';
 
-import logo1 from './../../assets/img/channel1.svg';
-import logo2 from './../../assets/img/channel2.svg';
-import logo3 from './../../assets/img/channel3.svg';
-import logo4 from './../../assets/img/channel4.svg';
-import logo5 from './../../assets/img/channel5.svg';
-import logo6 from './../../assets/img/channel6.svg';
+import logo1 from './../../assets/img/channel1.png';
+import logo2 from './../../assets/img/channel2.png';
+import logo3 from './../../assets/img/channel3.png';
+import logo4 from './../../assets/img/channel4.png';
+import logo5 from './../../assets/img/channel5.png';
+import logo6 from './../../assets/img/channel6.png';
 
 function Channels() {
     return (

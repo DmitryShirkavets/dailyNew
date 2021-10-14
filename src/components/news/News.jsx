@@ -3,9 +3,9 @@ import s from './News.module.css';
 import SectionTitle from './../section-title/SectionTitle';
 import OneNews from '../one-news/OneNews';
 
-import thumbnail1 from './../../assets/img/news1.svg';
-import thumbnail2 from './../../assets/img/news2.svg';
-import thumbnail3 from './../../assets/img/news3.svg';
+import thumbnail1 from './../../assets/img/news1.png';
+import thumbnail2 from './../../assets/img/news2.png';
+import thumbnail3 from './../../assets/img/news3.png';
 
 function News() {
     return (

@@ -5,7 +5,7 @@ import ArticleHeader from '../article-header/ArticleHeader';
 
 function Subscribe(props) {
     return (
-      <div className={s.subscribe}>
+      <section className={s.subscribe}>
         <div className={s.wrapper}>
             <button className={s.buttonClose}></button>
             <div className={s.imageWrapper}>
@@ -19,7 +19,9 @@ function Subscribe(props) {
                 </button>
             </form>
         </div>
-      </div>
+        <div className={s.wrapperTwo}></div>
+        <div className={s.wrapperThree}></div>
+      </section>
     );
   }
   

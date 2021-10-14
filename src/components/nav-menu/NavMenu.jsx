@@ -2,7 +2,7 @@ import s from './NavMenu.module.css';
 
 import home from './../../assets/img/home.svg';
 import explore from './../../assets/img/feed.svg';
-import saved from './../../assets/img/Bookmark.svg';
+import saved from './../../assets/img/bookmark.svg';
 import subscriptions from './../../assets/img/Document.svg';
 import messages from './../../assets/img/messages.svg';
 import settings from './../../assets/img/Settings.svg';
@@ -14,31 +14,31 @@ function NavMenu() {
             <ul className={s.list}>
                 <li className={s.listItem}>
                     <img className={s.listImg} src={home} alt="" />
-                    Home
+                    <span>Home</span>
                 </li>
                 <li className={s.listItem}>
                     <img className={s.listImg} src={explore} alt="" />
-                    Explore
+                    <span>Explore</span>
                 </li>
                 <li className={s.listItem}>
                     <img className={s.listImg} src={saved} alt="" />
-                    Saved
+                    <span>Saved</span>
                 </li>
                 <li className={s.listItem}>
                     <img className={s.listImg} src={subscriptions} alt="" />
-                    Subscriptions
+                    <span>Subscriptions</span>
                 </li>
                 <li className={s.listItem}>
                     <img className={s.listImg} src={messages} alt="" />
-                    Messages
+                    <span>Messages</span>
                 </li>
                 <li className={s.listItem}>
                     <img className={s.listImg} src={settings} alt="" />
-                    Settings
+                    <span>Settings</span>
                 </li>
                 <li className={s.listItem}>
                     <img className={s.listImg} src={logout} alt="" />
-                    Logout
+                    <span>Logout</span>
                 </li>
             </ul>
         </nav>
